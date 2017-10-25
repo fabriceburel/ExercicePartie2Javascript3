@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 3</title>
+</head>
+<body>
+  <form>
+    <label for="nom">Votre nom  : </label><input type="text" name="nom" onkeydown="champs();" value="" id="nom" />
+  </form>
+  <script>
+  function champs(){
+    var string = document.getElementById('nom').value; //déclaration de variable ayant pour valeur la valeur du champs "value" de l'input
+    alert(string);
+  };
+</script>
+</body>
+</html>
